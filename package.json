@@ -1,0 +1,25 @@
+{
+  "name": "medium-to-markdown",
+  "version": "1.0.0",
+  "description": "Export Markdown from Medium articles",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicascott/medium-to-markdown.git"
+  },
+  "keywords": ["Medium", "Markdown", "Chrome"],
+  "author": "Jessica Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicascott/medium-to-markdown/issues"
+  },
+  "homepage": "https://github.com/jessicascott/medium-to-markdown#readme",
+  "dependencies": {
+    "copy-webpack-plugin": "^4.5.2",
+    "turndown": "^4.0.2",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
+  }
+}
